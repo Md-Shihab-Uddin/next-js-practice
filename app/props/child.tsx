@@ -1,4 +1,4 @@
-export default function Child(props) {
+export default function Child(props: { title: string }) {
     console.log(props.title);
 
     return (
